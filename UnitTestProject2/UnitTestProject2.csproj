@@ -69,6 +69,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FirstMVCApplicaiton\FirstMVCApplicaiton.csproj">
+      <Project>{fccd7dab-72b8-4eff-9a93-68b535a3de09}</Project>
+      <Name>FirstMVCApplicaiton</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
